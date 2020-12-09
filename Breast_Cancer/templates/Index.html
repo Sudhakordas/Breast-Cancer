@@ -1,0 +1,29 @@
+<html>
+    <body bgcolor = #d4a3ae>
+        
+        <center>
+            
+            <h1>Breast Cancer Detection </h1> <br>
+            
+            <form method="POST", action = "{{url_for('home')}}">
+                
+                <b> First value : <input type = "text", name = "a", placeholder = "mean_radius"> <br><br>
+                Second value : <input type = "text", name = "b", placeholder = "mean_texture"> <br><br>
+                Third value : <input type = "text", name = "c", placeholder = "mean_perimeter"> <br><br>
+                Fourth value : <input type = "text", name = "d", placeholder = "mean_area"> <br><br>
+                Fifth value : <input type = "text", name = "e", placeholder = "mean_smoothness"> <br><br> <br></b>
+                <input type = "submit", value = 'Predict' >
+                
+            </form>
+            
+            
+            
+            
+            
+        </center>
+        
+        
+    </body>    
+    
+    
+</html>
